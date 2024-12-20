@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Helvetica Now Display;
+    }
+        
+html,
+body{
+        width: 100%;
+        height: 100%;
+        background-color: #b4cbeb;
+}
+
+.main{
+    width: 35%;
+    height: 100%;
+    top: 0%;
+    left: 55%;
+    position: absolute;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/51eed906e4b0953024980af9/1412011457584-XTBPBFAW41MF5LR6J836/Bei-Kuo-SS15-Collection-New-York-Fashion-Week-3.jpg?format=1500w);
+    background-size: cover;
+}
+.btn{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    top: 50%;
+    transform: translate(-50%, 0%);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.btn:hover{
+    box-shadow: 0px 0px 20px rgb(255, 0, 0);
+}
+.btn i{
+    font-size: 20px;
+    color: white;
+    transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.btn:hover i{
+    color: black;
+}
+
+.panel{
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    right: 0;
+    background-color: black;
+}
+
+.panel .top{
+    position: relative;
+    height: 50%;
+    width: 100%;
+    color: white;
+    background-color: black;
+}
+ .top i{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.panel .btm{
+    height: 50%;
+    width: 100%;
+    background-color:red;
+}
+
+.btm .contact{
+    position: absolute;
+    top: 75%;
+    left: 60%;
+    color: white;
+    display: flex;
+    transform: translate(-50%, -50%) rotate(-90deg);
+    gap: 40px;
+}
+
+.text{
+    position: absolute;
+    bottom: 10%;
+    gap: 20px;
+
+}
+.text .row{
+    display: flex;
+}
+
+.row h3{
+    font-size: 70px;
+    line-height: 1;
+    display: flex;
+    gap: 20px;
+}
+
+.phatto{
+    position: absolute;
+    top: 0;
+    margin-left: -1200px;
+}
